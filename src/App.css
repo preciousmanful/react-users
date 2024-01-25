@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+}
+
+.App{
+  background-color: #ededed;
+  height: 100vh;
+}
+
+.users-container, .users-form{
+  margin: 1rem;
+}
+.users{
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+ 
+}
+.users table{
+  border: 1px solid #999;
+  border-radius: 1rem;
+  padding: 1rem;
+ 
+}
+.users table *{
+  transition: all 0.3s;
+}
+.users table:hover *{
+  scale: 1.02;
+}
+
+.users-form input{
+  padding: 0.3rem;
+  border: 1px solid #999;
+  border-radius: 0.3rem;
+}
+
+.users-form input::placeholder{
+  font-style: italic;
+}
